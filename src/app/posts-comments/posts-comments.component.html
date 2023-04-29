@@ -1,0 +1,16 @@
+<agt-header></agt-header>
+<!-- <div> -->
+    <mat-card class="card">
+    <mat-card-header>
+        <mat-card-title class="title">{{post.title | uppercase}}</mat-card-title>
+        <mat-card-subtitle>{{post.body}}</mat-card-subtitle>
+    </mat-card-header>
+    <br>
+    </mat-card>
+    <mat-list class="list">
+        <mat-list-item class="comment" *ngFor="let comment of comments;">
+        <span matListItemTitle><b>{{comment.name | uppercase}}</b>: {{comment.email}}</span>
+        <span>{{comment.body}}</span>
+        </mat-list-item>
+    </mat-list>
+<!-- </div> -->
