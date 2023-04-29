@@ -1,11 +1,11 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { HttpEventType } from '@angular/common/http';
-import { Post } from '../posts-table/post';
-import { Comment } from './comment';
+import { Post } from '../interfaces/post';
+import { Comment } from '../interfaces/comment';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PostsService } from '../services/posts/posts.service';
 import { localStorageToken } from '../services/localStorageToken';
-import { User } from '../login/user';
+import { User } from '../interfaces/user';
 
 @Component({
   selector: 'agt-posts-comments',

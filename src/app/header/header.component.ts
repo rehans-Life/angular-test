@@ -1,5 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { User } from '../login/user';
+import { User } from '../interfaces/user';
 import { localStorageToken } from '../services/localStorageToken';
 import { Router } from '@angular/router';
 

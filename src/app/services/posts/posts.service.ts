@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpRequest } from '@angular/common/http';
-import { Post } from '../../posts-table/post';
-import { Comment } from '../../posts-comments/comment';
+import { Post } from '../../interfaces/post';
+import { Comment } from '../../interfaces/comment';
 
 @Injectable({
   providedIn: 'root',

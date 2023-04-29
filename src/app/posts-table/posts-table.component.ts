@@ -1,9 +1,9 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { PostsService } from '../services/posts/posts.service';
 import { HttpEventType } from '@angular/common/http';
-import { Post } from './post';
+import { Post } from '../interfaces/post';
 import { Router } from '@angular/router';
-import { User } from '../login/user';
+import { User } from '../interfaces/user';
 import { localStorageToken } from '../services/localStorageToken';
 
 @Component({

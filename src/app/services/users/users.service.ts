@@ -1,6 +1,6 @@
 import { HttpClient, HttpRequest } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { User } from '../../login/user';
+import { User } from '../../interfaces/user';
 import users from '../../../user.json';
 
 @Injectable({
